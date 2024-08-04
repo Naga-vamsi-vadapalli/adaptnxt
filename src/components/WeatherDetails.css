@@ -1,0 +1,10 @@
+.weather-card{
+    height: 360px;;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 5px;
+    border-color: grey;
+    
+    border-radius: 3%;
+}

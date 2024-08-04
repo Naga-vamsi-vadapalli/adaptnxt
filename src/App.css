@@ -1,0 +1,113 @@
+/* Common Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin-bottom: 1;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input {
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-right: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.search button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Light Mode Styles */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  background-color: white;
+  color: #333;
+}
+
+.search input {
+  background-color: white;
+  color: #333;
+  
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f4f4f4;
+}
+
+.container.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.search input.dark-mode {
+  background-color: #444;
+  color: #f4f4f4;
+}
+
+button.dark-mode {
+  background-color: grey;
+  color: white;
+}
+
+button.dark-mode:hover {
+  background-color: #666;
+}
